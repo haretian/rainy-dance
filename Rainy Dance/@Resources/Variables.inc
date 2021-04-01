@@ -13,6 +13,8 @@ SetAnimation =1
 Hide         =0
 Mirror	     =0
 
+OptionScale  =1
+
 ;============================================= Plugin
 
 Plugin       =WebNowPlaying
@@ -43,4 +45,4 @@ Animation8=Dervish
 ;============================================= System Variables (No touch)
 
 UpdateRate =125
-Random=0
+Random=1
