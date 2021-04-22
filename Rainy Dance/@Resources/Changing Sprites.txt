@@ -1,0 +1,25 @@
+==========================================
+Changing Sprite/Animations
+==========================================
+
+Sprite Formatting
+--------------------
+Each separate animation should be formatted as its own image
+One large image with the frames placed side by side
+Eavery frame should uniform height and width
+All animations should have the same amount of frames
+* Folder is located in @Resources/Sprite
+
+Values to know
+--------------------
+* Height and Width of a single frame
+* Number of frames per animation
+* Number of animation frames per beat (FPB)
+* Total number of unique animations
+
+Editing the Files
+--------------------
+Go to the Variables.inc file:
+* Change the variables in the section "Sprite Values"
+* Change AnimationN to the name of each .png in the Sprite folder in the section "Animations"
+* Animations can be added or removed (NOTE: Any number above 8 is unsupported in the Options.ini)
